@@ -1,0 +1,54 @@
+body{
+    background-color: #1e202b;
+}
+.navbar{
+    background-color: #1e202b;
+}
+a , li , ul ,input{
+    color: white !important;
+}
+.navbar-toggler-icon , button{
+    /* color: white !important; */
+    background-color: white !important;
+}
+img{
+    width: 50px;
+}
+.home {
+    background-image: url(./images/banner.png);
+    background-size: cover;
+    height: 30vh;
+    background-color: #1e202b;
+}
+.search {
+    background-color: #1e202b;
+    border: none;
+    
+}
+.search::placeholder{
+    color: white;
+}
+.search:focus{
+    background-color: #1e202b;
+}
+.card {
+    background-color:#2c2e3c;
+    color: white;
+}
+.card .date{
+    background-color: #070c28;
+}
+.card .card-body h4{
+    color: grey;
+}
+.card .card-body p{
+    font-size: 100px;
+}
+.card .card-body i{
+    color: yellow;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.card .card-body span {
+    color: rgb(0, 157, 255);
+}
